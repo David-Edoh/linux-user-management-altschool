@@ -7,9 +7,9 @@
     ![create a new user](https://github.com/David-Edoh/linux-user-management-altschool/assets/45123163/a8108237-51dc-4825-aeb3-7195ac85e2c3)
 
 
- 2. **Set an expiry date of 2weeks for the user:** To set an expiry date I used the `sudo usermod -e $(date -d "+2 weeks" "+%Y-%m-%d") <username>` command as illustrated in the image below. To verify the account's expiry date, I used the `sudo chage -l <username>`
+ 2. **Set an expiry date of 2 weeks for the user:** To set an expiry date I used the `sudo usermod -e $(date -d "+2 weeks" "+%Y-%m-%d") <username>` command as illustrated in the image below. To verify the account's expiry date, I used the `sudo chage -l <username>`
     
-    ![create a new user with expiry date](https://github.com/David-Edoh/linux-user-management-altschool/assets/45123163/2c0b0043-d608-4aa9-934f-dbb106abdb31)
+    ![modify user expiry to 2 weeks](https://github.com/David-Edoh/linux-user-management-altschool/assets/45123163/870a3926-645b-4fd1-a340-61e6c2c9a2a7)
 
     **Note:** We can also set the expiry date when creating the new user using the -e flag as shown below:
     
